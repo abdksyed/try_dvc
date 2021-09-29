@@ -1,0 +1,32 @@
+schema: '2.0'
+stages:
+  train_new_data:
+    cmd: python main.py
+    deps:
+    - path: main.py
+      md5: 6019d14cca8f78911759ac1fe02d5846
+      size: 4281
+    outs:
+    - path: metrics.csv
+      md5: 928f4bc71ea49938f3eef1421ad743c9
+      size: 479
+    - path: model.h5
+      md5: d3811853db06ae15533c50756ffbaebe
+      size: 804447
+      isexec: true
+    - path: test_bottleneck_features.npy
+      md5: 7350ebb2fe321e63e578c3e7b2b5ede5
+      size: 80281728
+      isexec: true
+    - path: test_labels.npy
+      md5: d8fb6e87d4323e7606fa01f3208f519e
+      size: 3328
+      isexec: true
+    - path: train_bottleneck_features.npy
+      md5: 5eb458b5a48162423fba7f859b117a4f
+      size: 200704128
+      isexec: true
+    - path: train_labels.npy
+      md5: b1a8b5736d5706e80644dca16eaccaae
+      size: 8128
+      isexec: true

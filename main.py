@@ -83,9 +83,9 @@ model = vgg16_bn(pretrained=True)
 feature_extractor = nn.Sequential(*list(model.children())[:-2])
 
 logger.info('Extracting Training Data Features, from VGG16_BN')
-save_feature_map(train_loader, feature_extractor, path, 'train', logger, device,force=False)
+save_feature_map(train_loader, feature_extractor, path, 'train', logger, device,force=True)
 logger.info('Extracting Test Data Features, from VGG16_BN')
-save_feature_map(test_loader, feature_extractor, path, 'test', logger, device, force=False)
+save_feature_map(test_loader, feature_extractor, path, 'test', logger, device, force=True)
     
 train_data = np.load(open('train_bottleneck_features.npy', 'rb'))
 train_labels = np.load(open('train_labels.npy', 'rb'))

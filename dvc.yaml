@@ -1,0 +1,14 @@
+stages:
+  train_new_data:
+    cmd: python main.py
+    deps:
+    - main.py
+    outs:
+    - model.h5
+    - test_bottleneck_features.npy
+    - test_labels.npy
+    - train_bottleneck_features.npy
+    - train_labels.npy
+    metrics:
+    - metrics.csv:
+        cache: false

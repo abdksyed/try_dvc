@@ -1,0 +1,77 @@
+2021-09-29 08:33:42,988 - INFO - Starting
+2021-09-29 08:33:43,960 - INFO - Extracting Training Data Features, from VGG16_BN
+2021-09-29 08:33:43,962 - INFO - train bottleneck features already exist. Skipping...
+2021-09-29 08:33:43,962 - INFO - Extracting Test Data Features, from VGG16_BN
+2021-09-29 08:33:43,964 - INFO - test bottleneck features already exist. Skipping...
+2021-09-29 08:33:44,416 - INFO - Epoch: 0
+2021-09-29 08:33:44,485 - INFO - Train Loss for Epoch0: 0.040193303048610685
+2021-09-29 08:33:44,486 - INFO - Train Accuracy for Epoch0: 67.0
+2021-09-29 08:33:44,511 - INFO - Test Loss for Epoch0: 0.038305701315402986
+2021-09-29 08:33:44,512 - INFO - Test Accuracy for Epoch0: 78.625
+2021-09-29 08:33:44,512 - INFO - Accuracy for Cat at Epoch0: 78.5
+2021-09-29 08:33:44,512 - INFO - Accuracy for Dog at Epoch0: 78.75
+2021-09-29 08:33:44,513 - INFO - Epoch: 1
+2021-09-29 08:33:44,573 - INFO - Train Loss for Epoch1: 0.02822484067082405
+2021-09-29 08:33:44,573 - INFO - Train Accuracy for Epoch1: 96.1
+2021-09-29 08:33:44,597 - INFO - Test Loss for Epoch1: 0.03230235461145639
+2021-09-29 08:33:44,598 - INFO - Test Accuracy for Epoch1: 83.5
+2021-09-29 08:33:44,598 - INFO - Accuracy for Cat at Epoch1: 84.25
+2021-09-29 08:33:44,598 - INFO - Accuracy for Dog at Epoch1: 82.75
+2021-09-29 08:33:44,599 - INFO - Epoch: 2
+2021-09-29 08:33:44,658 - INFO - Train Loss for Epoch2: 0.02012400358915329
+2021-09-29 08:33:44,658 - INFO - Train Accuracy for Epoch2: 97.6
+2021-09-29 08:33:44,683 - INFO - Test Loss for Epoch2: 0.028886471278965473
+2021-09-29 08:33:44,684 - INFO - Test Accuracy for Epoch2: 84.375
+2021-09-29 08:33:44,684 - INFO - Accuracy for Cat at Epoch2: 85.75
+2021-09-29 08:33:44,684 - INFO - Accuracy for Dog at Epoch2: 83.0
+2021-09-29 08:33:44,684 - INFO - Epoch: 3
+2021-09-29 08:33:44,740 - INFO - Train Loss for Epoch3: 0.01571833835542202
+2021-09-29 08:33:44,740 - INFO - Train Accuracy for Epoch3: 98.0
+2021-09-29 08:33:44,766 - INFO - Test Loss for Epoch3: 0.026739755645394325
+2021-09-29 08:33:44,766 - INFO - Test Accuracy for Epoch3: 84.5
+2021-09-29 08:33:44,766 - INFO - Accuracy for Cat at Epoch3: 85.5
+2021-09-29 08:33:44,766 - INFO - Accuracy for Dog at Epoch3: 83.5
+2021-09-29 08:33:44,767 - INFO - Epoch: 4
+2021-09-29 08:33:44,827 - INFO - Train Loss for Epoch4: 0.012950394123792648
+2021-09-29 08:33:44,827 - INFO - Train Accuracy for Epoch4: 98.5
+2021-09-29 08:33:44,853 - INFO - Test Loss for Epoch4: 0.025259503237903116
+2021-09-29 08:33:44,853 - INFO - Test Accuracy for Epoch4: 85.0
+2021-09-29 08:33:44,854 - INFO - Accuracy for Cat at Epoch4: 85.75
+2021-09-29 08:33:44,854 - INFO - Accuracy for Dog at Epoch4: 84.25
+2021-09-29 08:33:44,854 - INFO - Epoch: 5
+2021-09-29 08:33:44,909 - INFO - Train Loss for Epoch5: 0.011040666818618775
+2021-09-29 08:33:44,910 - INFO - Train Accuracy for Epoch5: 98.7
+2021-09-29 08:33:44,929 - INFO - Test Loss for Epoch5: 0.02417804654687643
+2021-09-29 08:33:44,929 - INFO - Test Accuracy for Epoch5: 85.25
+2021-09-29 08:33:44,930 - INFO - Accuracy for Cat at Epoch5: 86.25
+2021-09-29 08:33:44,930 - INFO - Accuracy for Dog at Epoch5: 84.25
+2021-09-29 08:33:44,930 - INFO - Epoch: 6
+2021-09-29 08:33:44,977 - INFO - Train Loss for Epoch6: 0.009638333566486836
+2021-09-29 08:33:44,977 - INFO - Train Accuracy for Epoch6: 98.7
+2021-09-29 08:33:45,001 - INFO - Test Loss for Epoch6: 0.02335443742573261
+2021-09-29 08:33:45,001 - INFO - Test Accuracy for Epoch6: 85.75
+2021-09-29 08:33:45,001 - INFO - Accuracy for Cat at Epoch6: 87.0
+2021-09-29 08:33:45,001 - INFO - Accuracy for Dog at Epoch6: 84.5
+2021-09-29 08:33:45,002 - INFO - Epoch: 7
+2021-09-29 08:33:45,046 - INFO - Train Loss for Epoch7: 0.00856068852543831
+2021-09-29 08:33:45,046 - INFO - Train Accuracy for Epoch7: 98.9
+2021-09-29 08:33:45,066 - INFO - Test Loss for Epoch7: 0.02270899439230561
+2021-09-29 08:33:45,066 - INFO - Test Accuracy for Epoch7: 85.75
+2021-09-29 08:33:45,067 - INFO - Accuracy for Cat at Epoch7: 87.25
+2021-09-29 08:33:45,067 - INFO - Accuracy for Dog at Epoch7: 84.25
+2021-09-29 08:33:45,067 - INFO - Epoch: 8
+2021-09-29 08:33:45,120 - INFO - Train Loss for Epoch8: 0.0077041972875595095
+2021-09-29 08:33:45,120 - INFO - Train Accuracy for Epoch8: 99.1
+2021-09-29 08:33:45,140 - INFO - Test Loss for Epoch8: 0.02219120677560568
+2021-09-29 08:33:45,141 - INFO - Test Accuracy for Epoch8: 85.75
+2021-09-29 08:33:45,141 - INFO - Accuracy for Cat at Epoch8: 87.25
+2021-09-29 08:33:45,141 - INFO - Accuracy for Dog at Epoch8: 84.25
+2021-09-29 08:33:45,142 - INFO - Epoch: 9
+2021-09-29 08:33:45,185 - INFO - Train Loss for Epoch9: 0.0070050121545791625
+2021-09-29 08:33:45,185 - INFO - Train Accuracy for Epoch9: 99.2
+2021-09-29 08:33:45,205 - INFO - Test Loss for Epoch9: 0.021768433023244143
+2021-09-29 08:33:45,205 - INFO - Test Accuracy for Epoch9: 85.625
+2021-09-29 08:33:45,206 - INFO - Accuracy for Cat at Epoch9: 87.5
+2021-09-29 08:33:45,206 - INFO - Accuracy for Dog at Epoch9: 83.75
+2021-09-29 08:33:45,207 - INFO - Saving the Head Model Weights as "model.h5"...
+2021-09-29 08:33:45,213 - INFO - Model Saved!
